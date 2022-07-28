@@ -36,13 +36,14 @@
  systemctl daemon-reload
  systemctl enable nexus.service
  systemctl start nexus.service
+```
+Para verificar o log da instalação:
 
-**Para verificar o log da instalação:**
- tail -f /opt/sonatype-work/nexus3/log/nexus.log
-***No log vai aparecer a seguinte mensagens quando estiver inicializado. 
-A primeira inicialização demora uns 30 minutos***
-  Started Sonatype Nexus OSS 3.41.0-01
+ ```tail -f /opt/sonatype-work/nexus3/log/nexus.log```
+
+No log vai aparecer a seguinte mensagens quando estiver inicializado. 
+A primeira inicialização demora uns 30 minutos
+   Started Sonatype Nexus OSS 3.41.0-01
 
 
- sleep 10
- echo "nexus.scripts.allowCreation=true" >> /opt/sonatype-work/nexus3/etc/nexus.properties
+ 

@@ -4,7 +4,7 @@
  apt-get install --no-install-recommends -y openjdk-8-jre-headless nginx unzip curl net-tools
  ```
  
- ## dpkg-reconfigure tzdata
+##dpkg-reconfigure tzdata
 
  ```
  cd /tmp

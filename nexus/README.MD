@@ -1,11 +1,12 @@
 # Instalado nexus
- ```bash
+ ```
  apt-get update
  apt-get install --no-install-recommends -y openjdk-8-jre-headless nginx unzip curl net-tools
-
+ ```
+ 
  ## dpkg-reconfigure tzdata
 
- ```bash
+ ```
  cd /tmp
  curl -#OL -k https://download.sonatype.com/nexus/3/latest-unix.tar.gz
  tar -xvzf latest-unix.tar.gz

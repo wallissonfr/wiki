@@ -1,11 +1,11 @@
-==Instalado nexus==
-
+#Instalado nexus
+ ```bash
  apt-get update
  apt-get install --no-install-recommends -y openjdk-8-jre-headless nginx unzip curl net-tools
 
  ## dpkg-reconfigure tzdata
 
-
+ ```bash
  cd /tmp
  curl -#OL -k https://download.sonatype.com/nexus/3/latest-unix.tar.gz
  tar -xvzf latest-unix.tar.gz
@@ -37,10 +37,10 @@
  systemctl enable nexus.service
  systemctl start nexus.service
 
-Para verificar o log da instalação:
+**Para verificar o log da instalação:**
  tail -f /opt/sonatype-work/nexus3/log/nexus.log
-No log vai aparecer a seguinte mensagens quando estiver inicializado. 
-A primeira inicialização demora uns 30 minutos
+***No log vai aparecer a seguinte mensagens quando estiver inicializado. 
+A primeira inicialização demora uns 30 minutos***
   Started Sonatype Nexus OSS 3.41.0-01
 
 

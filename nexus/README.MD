@@ -1,4 +1,4 @@
-#Instalado nexus
+# Instalado nexus
  ```bash
  apt-get update
  apt-get install --no-install-recommends -y openjdk-8-jre-headless nginx unzip curl net-tools
